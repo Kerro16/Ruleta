@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(236, 243, 230) !important;
+    font-size: 20px !important; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-right: 500px !important;
+    
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ruleta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nuevaopcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .ganador {
+    font-size: 40px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.delbtn img {
+    width: 20px;
+    height: 20px;
+}
+
+.delbtn {
+
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  right: 0;
+  padding-right: 400px;
+
+
+}
+
+.addbtn {
+    border: none;
+    background-color: transparent;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .addbtn:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+
+.addbtn img {
+    width: 20px;
+    height: 20px;
+}
+
+#nuevaOpcion {
+    border: none;
+}
+
+.ultimoganador {
+    display: flex;
+    justify-content: center;
+    transform: skew(-10deg);
+  }
+
+.ganadorbtn {
+
+    border: none;
+    background-image: linear-gradient(to right, rgb(96, 96, 245), rgb(144, 144, 255));
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .file-upload:hover {
+    transform: scale(1.1);
+  }
+
+.option-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.mensaje {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.btngirar input{
+
+    border: none;
+    background-image: linear-gradient(to right, rgb(96, 96, 245), rgb(144, 144, 255));
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
