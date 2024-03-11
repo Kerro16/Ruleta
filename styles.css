@@ -23,11 +23,13 @@ body {
     align-items: center;
   }
   
-  .nuevaopcion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .nuevaopcion{
+    padding-right: 200px;
+  }
+  
+  .file-upload{
+    padding-bottom: 10px;
+    padding-left: 70px;
   }
   
   #opciones {
@@ -91,8 +93,11 @@ body {
 .ultimoganador {
     display: flex;
     justify-content: center;
+    align-items: center;
     transform: skew(-10deg);
   }
+
+
 
 .ganadorbtn {
 
@@ -103,15 +108,7 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
   }
-  
-  .file-upload {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    transition: transform 0.3s ease-in-out;
-  }
+
   
   .file-upload:hover {
     transform: scale(1.1);
@@ -140,3 +137,28 @@ body {
 
 }
 
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas de celulares */
+  .file-upload {
+    padding-left: 0;
+  }
+
+  .option-input {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nuevaopcion {
+    
+    padding-right: 0;
+    padding-bottom: 30px;
+    
+  }
+}

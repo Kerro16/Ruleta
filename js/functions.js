@@ -234,6 +234,12 @@ function cargarOpcionesDesdeArchivo(event) {
   reader.readAsText(file);
 }
 
+document.getElementById("nuevaOpcion").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+      event.preventDefault();
+      agregarOpcion();
+  }
+});
 
 
 
